@@ -36,3 +36,8 @@ Make sure to deploy the output of `remix build`
 
 - `build/`
 - `public/build/`
+
+## docker
+
+$ docker build -t wakatake .
+$ docker run -it -p 3000:3000 wakatake
